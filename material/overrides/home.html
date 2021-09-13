@@ -1,0 +1,235 @@
+{% extends "overrides/main-styles.html" %}
+
+{% block tabs %}
+{{ super() }}
+
+<section class="tx-container">
+    <div class="md-grid md-typeset">
+        <div class="tx-hero">
+            <div class="tx-hero__image">
+                <img src="assets/images/illustration.png" alt="" width="600" draggable="false">
+            </div>
+            <div class="tx-hero__content">
+                <h1>Bem vindx a <br>LifeSupport Stack 🚀</h1>
+                <p>
+                    Neste espaço, abordamos a Jornada e o uso do LifeSupport Stack de ponta a ponta, focando em facilitar a adesão do Dev às Stacks Modernas e Boas práticas. <br><br>
+                </p>
+                <br>
+                <p>
+                    ⭐ <strong>Aplicações de alta disponibilidade</strong> <br>
+                    ⭐ <strong>Performance no desenvolvimento</strong> <br>
+                    ⭐ <strong>Facilidade em implementação</strong> <br>
+                    ⭐ <strong>Escalabilidade da aplicação</strong> <br>
+                    ⭐ <strong>Módulos e Quick Starts</strong> <br>
+                    ⭐ <strong>Otimização de custos</strong> <br>
+                <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
+                    Conheça nossas jornadas!
+                </a><br>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="tx-container-2">
+    <div class="md-grid md-typeset">
+        <div class="tx-hero__content-2">
+            <h1 id="what-is-leverage">Conheças as trilhas de aprendizado #WayOfTheRocks</h1><br>
+            <ul>
+                <li>Jornada Cloud AWS</li>
+                <li>Jornada Front-end web</li>
+                <li>Jornada Front-end mobile</li>
+                <li>Jornada Back-end</li>
+                <li>Jornada Qualidade</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- 
+<section class="tx-container-2">
+    <div class="md-grid md-typeset">
+        <div class="tx-hero__image-2" style="margin-top: 50px">
+            <img src="assets/images/illustrations/home-section-2.png" alt="" width="800" draggable="false" align="left">
+        </div>
+        <div class="tx-hero">
+            <div class="tx-hero__content-2">
+                <h1 id="what-is-leverage">What is Leverage?</h1><br>
+                <p>
+                    Our focus is on creating reusable, high quality AWS Cloud Infrastructure code, through our core components:<br>
+                    ▶️
+                    <strong>
+                        <a href="https://leverage.binbash.com.ar/how-it-works/">Reference Architecture for AWS</a>
+                    </strong><br>
+                    ▶️
+                    <strong>
+                        <a href="https://leverage.binbash.com.ar/how-it-works/infra-as-code-library/infra-as-code-library/">Infrastructure
+                            as Code (IaC) Library</a>
+                    </strong><br>
+                    ▶️
+                    <strong>
+                        <a href="https://github.com/binbashar/leverage">Leverage CLI</a>
+                    </strong><br><br>
+                    Because all the code and modules are already built, we can get your project up and running on AWS
+                    <strong> at least 2x faster </strong> 🚀 than a consulting company (✅ typically in just a few weeks!).<br><br>
+
+                    On top of code that is
+                    thoroughly documented, tested, and has been proven in production at dozens of other project
+                    deployments by our
+                    <strong>
+                        <a href="https://leverage.binbash.com.ar/work-with-us/support/">Engineering Support Team.</a>
+                    </strong>
+
+                </p><br>
+
+                <a href="https://drive.google.com/file/d/1aHq50Im_ABK_j1zPTgxoQL-0IV91vkB5/view?usp=sharing" title="{{ page.next_page.title | e }}" class="md-button md-button">
+                    Product Features
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="tx-container-3">
+    <div class="md-grid md-typeset">
+        <div class="tx-hero">
+
+            <div class="tx-hero__image-3">
+                
+            </div>
+
+            <div class="tx-hero__content_small">
+                <br>
+                <h1>Benefícios</h1><br>
+
+                <p>
+                    ✅ If you implement our
+                    <strong><a href="">Reference AWS Cloud Solutions Architecture</a></strong> and the
+                    <strong><a href="https://leverage.binbash.com.ar/how-it-works/infra-as-code-library/infra-as-code-library/">Infrastructureas Code (IaC) Library</a></strong> via
+                    <strong><a href="https://github.com/binbashar/leverage">Leverage CLI</a></strong> , you will get your entire Cloud Native Application Infra in few weeks.<br><br>
+                    ✅ We've built every component based on the best recommended practices mainly following the
+                    <strong>
+                        <a href="https://leverage.binbash.com.ar/work-with-us/support/#aws-well-architected-review">AWS
+                            Well-Archiected Framework
+                        </a>
+                    </strong>,
+                    granting you ownership to implement, reuse and scale your production workloads faster.<br><br>
+
+                    ✅ Leverage will solve your
+                    entire infrastructure and will grant you complete control of the source code, and of course you'll
+                    be able to run it without us.<br>
+                </p><br>
+
+                <a
+                        href="https://leverage.binbash.com.ar/how-it-works/general-concepts/why-leverage/"
+                        title="{{ page.next_page.title | e }}"
+                        class="md-button"
+                >
+                    Find out more 'Whys'
+                </a>
+
+                <a
+                        href="https://leverage.binbash.com.ar/work-with-us/leverage-vs-competition/"
+                        title="{{ lang.t('source.link.title') }}"
+                        class="md-button md-button--primary">
+                    Leverage vs Competition
+                </a>
+
+                <p>
+
+                <h2>
+                <i>Implement</i>
+                <i style="color: aquamarine">Leverage</i>
+                <i>with our support or we can deploy it for you! 💪</i>
+            </h2>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="tx-container-3">
+    <div class="md-grid md-typeset">
+        <div class="tx-hero">
+            <div class="tx-hero__image-4">
+                <img
+                        src="assets/images/illustrations/home-section-7.png"
+                        alt=""
+                        width="800"
+                        draggable="false"
+                >
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="tx-container-2">
+    <h2>#wayoftherocks</h2>
+
+    <div class="md-grid md-typeset">
+        <div class="tx-hero__image-2">
+            <img src="assets/images/illustrations/home-section-5.png" alt="" width="800" draggable="false" align="left">
+        </div>
+        <div class="tx-hero">
+            <div class="tx-hero__content-2">
+                <h1 id="tech-stack">Our tech stack</h1>
+                <p><br>
+                    ⛵ Opinionated reference AWS solutions composable architecture. Based in the
+                        <a href="https://leverage.binbash.com.ar/work-with-us/support/#aws-well-architected-review"><b>AWS Well
+                            Architected Framework</b></a>. With over 10 years of experience, Infra as code and best practices.
+                    <br><br>
+                    ⛵ Leverage facilitates a collection of reusable, tested, production-ready E2E IaC solutions. Leveraged by modules
+                    written in <a href="https://leverage.binbash.com.ar/how-it-works/infra-as-code-library/infra-as-code-library/">
+                        <b>Terraform, Ansible, Dockerfiles, Helm Charts and Python</b></a>.
+                    <br><br>
+
+                    ⛵ Automated deployment workflow via <strong>
+                        <a href="https://github.com/binbashar/leverage">Leverage CLI</a>.
+                    </strong>
+                </p><br>
+
+                <a href="https://leverage.binbash.com.ar/how-it-works/why/" title="{{ page.next_page.title | e }}" class="md-button md-button">
+                    Why our tech stack?
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="tx-container-2">
+    
+    <div class="md-grid md-typeset">
+        <div class="tx-hero__image-2">
+            <img src="assets/images/illustrations/home-section-5.png" alt="" width="800" draggable="false" align="left">
+        </div>
+        <div class="tx-hero">
+            <div class="tx-hero__content-2">
+                <h1>Quem somos?</h1>
+                <p>
+                    <br>
+                    ⛵ Opinionated reference AWS solutions composable architecture. Based in the
+                        <a href="https://leverage.binbash.com.ar/work-with-us/support/#aws-well-architected-review"><b>AWS Well
+                            Architected Framework</b></a>. With over 10 years of experience, Infra as code and best practices.
+                    <br><br>
+                    ⛵ Leverage facilitates a collection of reusable, tested, production-ready E2E IaC solutions. Leveraged by modules
+                    written in <a href="https://leverage.binbash.com.ar/how-it-works/infra-as-code-library/infra-as-code-library/">
+                        <b>Terraform, Ansible, Dockerfiles, Helm Charts and Python</b></a>.
+                    <br><br>
+
+                    ⛵ Automated deployment workflow via <strong>
+                        <a href="https://github.com/binbashar/leverage">Leverage CLI</a>.
+                    </strong>
+                </p><br>
+
+                <a href="https://leverage.binbash.com.ar/how-it-works/why/" title="{{ page.next_page.title | e }}" class="md-button md-button">
+                    Why our tech stack?
+                </a>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+
+{% endblock %}
+

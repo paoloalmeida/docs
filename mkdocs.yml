@@ -1,12 +1,11 @@
 # Project information
-site_name: Paolo
+site_name: LS - Way of the Rocks
 site_url: https://stevemar.github.io/minimal-workshop-mkdocs
 site_author: Paolo
 
 # Repository
-repo_name: minimal-workshop-mkdocs
-repo_url: https://github.com/stevemar/minimal-workshop-mkdocs
-# Change the middle parameter to the default branch, "master" or "main"
+repo_name: way-of-the-rocks
+repo_url: https://github.com/paoloalmeida/docs
 edit_uri: edit/master/docs
 
 # Navigation
@@ -19,8 +18,8 @@ nav:
 
 # Theme
 theme:
-  name: null
-  custom_dir: 'wor/'
+  name: material
+  custom_dir: material
   icon:
     logo: material/library
   features:
@@ -37,16 +36,16 @@ theme:
   palette:
     - scheme: default
       primary: black
-      accent: black
+      accent: black  
       toggle:
         icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
+        name: Mudar para Dark Mode
     - scheme: slate
-      primary: red
-      accent: red
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/toggle-switch
-        name: Switch to light mode
+        name: Mudar para Dark Mode
   font:
     text: Roboto
     code: Roboto Mono
